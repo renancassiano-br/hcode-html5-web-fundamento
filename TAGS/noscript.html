@@ -4,11 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tga noscript</title>
+    <title>Tag noscript</title>
+
+    <noscript>
+      <style>
+        body {
+          background-color: red;
+          color: white;
+        }
+      </style>
+    </noscript>
   </head>
   <body>
     <header>
       <a href="tags.html">Voltar</a>
     </header>
+    <p>
+      A tag noscript aceita todos os atributos globais e não possui atributos
+      exclusívos e nem atributos CSS.
+    </p>
+    <p>
+      Pode ser utilizada como no exemplo que:
+      <br />
+      <em>
+        Se o javascript estiver desativado, o ,<strong>noscritp</strong> altera
+        o plano de fundo e adiciona mensagem que o javascript está desativa.</em
+      >
+    </p>
+
+    <noscript>
+      <p>O Java script está desativado!</p>
+    </noscript>
+    <script>
+      alert('Hello world')
+    </script>
   </body>
 </html>
