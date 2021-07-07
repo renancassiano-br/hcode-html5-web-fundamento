@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag iframe</title>
+  </head>
+  <body>
+    <header>
+      <a href="tags.html">Voltar</a>
+    </header>
+    <p>
+      A tag <em>iframe</em> possui os atributos globais e os atributos
+      expecíficos abaixo.
+    </p>
+    <ul>
+      <li>height - altura</li>
+      <li>name - nome</li>
+      <li>
+        sandbox - allow-forms, allow-pointer-lock, allow-popups,
+        allow-same-origin, allow-scripts, allow-top-navigation
+      </li>
+      <li>src - URL</li>
+      <li>srcdoc - HTML</li>
+      <li>width - largura</li>
+    </ul>
+    <p>
+      O estilo CSS padrão é:
+      <ul>
+        <li>
+          <em>
+            iframe:focus {
+              outline: none;
+            }
+          </em>
+        </li>
+        <li>
+          <em>
+            iframe[seamless]{
+              display: block;
+            }
+          </em>
+        </li>
+      </ul>
+    </p>
+
+    <iframe src="embed.html" width="800" height="600"></iframe>
+  </body>
+</html>
