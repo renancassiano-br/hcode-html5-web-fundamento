@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUDIO</title>
+  </head>
+  <body>
+    <header>
+      <a href="tags.html">Voltar</a>
+    </header>
+    <h2>Sobre a tag <em>audio</em>.</h2>
+    <p>Tag usada para definir um som, música ou transmissão de áudio.</p>
+    <h3>Formatos de áudio suportados.</h3>
+    <ul>
+      <li>.mp3</li>
+      <li>.wav</li>
+      <li>.ogg</li>
+    </ul>
+    <p>
+      Qualquer texto que estiver dentro da tag, será exibido em navegadores que
+      não suportam a tag <em>audio</em>.
+    </p>
+    <p>
+      A tag <em>audio</em> possui os atributos globais e possui os atributos
+      expecíficos abixo.
+    </p>
+    <ul>
+      <li>
+        autoplay - Começa a reproduzir assim que os dados do áudio estiverem
+        disponíveis - <em>autoplay</em>
+      </li>
+      <li>
+        <em>controls</em> - Habilita os controles de reprodução de áudio. -
+        <em>controls</em>
+      </li>
+      <li>
+        <em>loop</em> - Define se o áudio deve começar e ficar repetindo quando
+        terminar - <em>loop</em>
+      </li>
+      <li><em>muted</em> - Define o áudio como mudo - <em>muted</em></li>
+      <li>
+        <em>preload</em> - Defini como o áudio deve ser carregado quando a
+        página é carregada - <em>auto, metadata, none</em>
+      </li>
+      <li>
+        <em>src</em> - Definir qual o caminho da fonte/link do áudio -
+        <em>URL</em>
+      </li>
+    </ul>
+    <p>A tag <em>audio</em> não possui nenhum estilo CSS.</p>
+    <!-- uso da tag audio -->
+    <audio
+      src="../midia/audio/How_it_Began.mp3"
+      controls
+      preload
+      autoplay
+      muted
+      loop
+    ></audio>
+  </body>
+</html>
